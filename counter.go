@@ -41,11 +41,9 @@ func countFile(path string) (int, error) {
 
 func countStringOccurences(path string, wg *sync.WaitGroup, limitWorkersCh chan struct{}, results chan int) {
 	limitWorkersCh <- struct{}{}
-	// fmt.Println("start")
 
 	defer wg.Done()
 	defer func() { <-limitWorkersCh }()
-	// defer fmt.Println("end")
 
 	count := 0
 	var err error
