@@ -18,18 +18,18 @@ Total: 27
 
 Клонирование репозитория:
 
-`git clone https://github.com/kuzkuss/test_task`
+`$ git clone https://github.com/kuzkuss/test_task`
 
 Сборка:
 
-`go build -o go-counter .`
+`$ go build -o go-counter .`
 
 # Использование
 
 Запуск:
 
-`echo -e 'something_paths' | ./go-counter`
+`$ echo -e 'something_paths' | ./go-counter`
 
 Вместо стандартного потока ввода и вывода можно использовать файлы:
 
-`./go-counter < input_file.txt > output_file.txt`
+`$ ./go-counter < input_file.txt > output_file.txt`
