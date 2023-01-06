@@ -18,7 +18,7 @@ Total: 27
 
 Клонирование репозитория:
 
-`$ git clone https://github.com/kuzkuss/test_task`
+`$ git clone git@github.com:kuzkuss/test_task.git && cd test_task`
 
 Сборка:
 
